@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.parent{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url('mars.jpg');
+    background-position: center;
+    background-size: contain;
+    object-fit: cover;
+    position: relative;
+}
+.des{
+    opacity: 0.8;
+    color: aliceblue;
+    position: absolute;
+    top: 3%;
+    left: 7%;
+}
+.des h3{
+    display: inline;
+}
+.heading{
+    opacity: 0.7;
+    padding-right: 22px;
+}
+.main{
+    position: absolute;
+    height: 65%;
+    width: 25%;
+    left: 60%;
+    top: 18%;
+}
+.mmet{
+    padding-left: 0;
+    color: aliceblue;
+}
+li{
+    font-family:'Times New Roman', Times, serif;
+    opacity: 0.8;
+    display: inline;
+    padding-left: 25px;
+}
+.moon{
+    padding-left: 0;
+}
+.mars{
+    padding-top: 25px;
+    position: absolute;
+    font-size: 50px;
+    color: aliceblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+}
+.disc{
+    opacity: 0.7;
+    color: aliceblue;
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid aliceblue;
+    position: relative;
+}
+.bottom{
+    position: absolute;
+    color: aliceblue;
+    padding-top: 30px;
+    
+}
+.div1{
+    float: left;   
+}
+.div2{
+    float: left;
+    padding-left: 45px;
+}
+.bottom h4{
+    opacity: 0.7;
+    font-size: 12px;
+}
