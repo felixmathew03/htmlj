@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+/* font-family: "Lilita One", sans-serif; */
+*{
+    padding: 0;
+    margin: 0;
+}
+.parent{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg,purple,orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+h1{
+    font-family: "Lilita One", sans-serif;
+    font-size: 200px;
+}
+.material-symbols-outlined{
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 150px;
+    color: aliceblue;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -moz-font-feature-settings: 'liga';
+    -moz-osx-font-smoothing: grayscale;
+}
