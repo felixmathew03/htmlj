@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.anm{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+    animation-name: anime;
+    animation-duration: 10s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anime{
+    0%{
+        left:0;
+        top: 0;
+        background-color: black;
+    }
+    25%{
+        left: 500px;
+        top: 0;
+        background-color: white;
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+    50%{
+        left: 500px;
+        top: 500px;
+        
+        background-color: black;
+        border-radius: 0;
+    }
+    75%{
+        top: 525px;
+        left: 0;
+        background-color: black;
+        border-radius: 0;
+    }
+    100%{
+        left:0;
+        top: 0 ;
+        background-color: white;
+        border: 1px solid black;
+    }
+}
+
+.anm1{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    animation-name: anime1;
+    animation-duration: 10s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+}
+
+@keyframes anime1{
+    0%{
+        left:0;
+        top: 25px;
+        background-color: white;
+    }
+    25%{
+        top: 525px;
+        left: 25px;
+        background-color: black;
+        border-radius: 0;
+    }
+    50%{
+        top: 525px;
+        left: 525px;
+        background-color: white;
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+    75%{
+        left: 500px;
+        top: 25px;
+        background-color: white;
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+    100%{
+        left:0;
+        top: 25px;
+        background-color: black;
+    }
+}
+
+.anm2{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    animation-name: anime2;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+}
+
+
+@keyframes anime2{
+    from{
+        left:0;
+        top: 0;
+        background-color: red;
+    }
+    to{
+        top: 350px;
+        left: 350px;
+        background-color: blue;
+        border-radius: 50%;
+        height: 400px;
+        width: 400px;
+    }
+}
+
+.anm4{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    animation-name: anime4;
+    animation-duration: 10s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anime4{
+    0%{
+        right:0;
+        top: 0;
+        background-color: black;
+    }
+    25%{
+        right: 500px;
+        top: 0;
+        background-color: white;
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+    50%{
+        right: 500px;
+        top: 500px;
+        
+        background-color: black;
+        border-radius: 0;
+    }
+    75%{
+        top: 525px;
+        right: 0;
+        background-color: black;
+        border-radius: 0;
+    }
+    100%{
+        right:0;
+        top: 0 ;
+        background-color: white;
+        border: 1px solid black;
+    }
+}
+
+.anm5{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    animation-name: anime5;
+    animation-duration: 10s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+}
+
+@keyframes anime5{
+    0%{
+        right:0;
+        top: 25px;
+        background-color: white;
+    }
+    25%{
+        top: 525px;
+        right: 25px;
+        background-color: black;
+        border-radius: 0;
+    }
+    50%{
+        top: 525px;
+        right: 525px;
+        background-color: white;
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+    75%{
+        right: 500px;
+        top: 25px;
+        background-color: white;
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+    100%{
+        right:0;
+        top: 25px;
+        background-color: black;
+    }
+}
+
+.anm6{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    animation-name: anime6;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+}
+
+
+@keyframes anime6{
+    from{
+        right:0;
+        top: 0;
+        background-color: red;
+    }
+    to{
+        top: 350px;
+        right: 350px;
+        background-color: blue;
+        border-radius: 50%;
+        height: 400px;
+        width: 400px;
+    }
+}
+
+
+.anm7{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: anime7;
+    animation-duration: 10s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+}
+
+@keyframes anime7{
+    0%{
+        top:0;
+        left: 50%;
+        background-color: white;
+    }
+
+    50%{
+        top: 50%;
+        left: 50%;
+        background-color: white;
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+
+    100%{
+        left:50%;
+        bottom: 0;
+        background-color: black;
+    }
+}
